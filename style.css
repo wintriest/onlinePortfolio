@@ -25,6 +25,11 @@ body {
     height: 100%;
 }
 
+html {
+    background: linear-gradient(140deg, #0f1112 0%, #181b1d 48%, #222629 75%, #0b0c0d 100%);
+    background-color: #0f1112;
+}
+
 body {
     min-height: 100dvh;
     display: flex;
@@ -1021,11 +1026,13 @@ h1 {
 
     .page-gallery,
     .page-about {
-        overflow: auto;
+        overflow: hidden;
     }
 
     .page-gallery main,
     .page-about main {
+        background: linear-gradient(140deg, #0f1112 0%, #181b1d 48%, #222629 75%, #0b0c0d 100%);
+        background-color: #0f1112;
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
     }
